@@ -2,7 +2,7 @@
 
 using namespace std;
 
-#define _ ios_base::sync_with_stdio(null); cin.tie(nullptr);
+#define _ ios_base::sync_with_stdio(false); cin.tie(nullptr);
 #define f first 
 #define s second
 
