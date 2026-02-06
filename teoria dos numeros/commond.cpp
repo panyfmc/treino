@@ -2,7 +2,8 @@
 using namespace std;
 const int MAXX = 1e6;
 #define _ ios::sync_with_stdio(false); cin.tie(nullptr);
-
+// https://vjudge.net/contest/786727#problem/B
+// Common Divisors
 int main() {
     _
 
