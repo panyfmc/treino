@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define _ ios::sync_with_stdio(false); cin.tie(nullptr);
+// https://vjudge.net/contest/786727#problem/D
 // light, more light
 int main() {
     _
