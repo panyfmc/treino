@@ -2,7 +2,7 @@
 using namespace std;
 #define _ ios_base::sync_with_stdio(false); cin.tie(nullptr);
 // https://vjudge.net/contest/786727#problem/A
-
+// Counting Divisors
 int main() {
 	_
 	
