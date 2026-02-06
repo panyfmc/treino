@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+// https://vjudge.net/contest/786727#problem/C
+// Simply Emirp
 const int MAXN = 1000000;
 
 int main() {
