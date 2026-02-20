@@ -4,14 +4,13 @@ using namespace std;
 #define ll long long
 #define pb push_back
 // https://cses.fi/problemset/task/1068/
+void par(ll &x) {
+    x /= 2;
+}
 
-// void par(int &x) {
-//     x /= 2;
-// }
-
-// void impar(int &y) {
-//     y = (y * 3) + 1;
-// }
+void impar(ll &y) {
+    y = (y * 3) + 1; 
+}
 
 signed main() {
     _
@@ -20,12 +19,13 @@ signed main() {
     valores.pb(n);
     while(n != 1) {
         if(n%2 == 0) {
-            //par(n); 
-            n /= 2;
+            par(n); 
+            //n /= 2;
             //cout << n << " ";
             valores.pb(n);
         } else {
-            n = (n * 3) + 1;
+            impar(n);
+            //n = (n * 3) + 1;
             //cout << n << " ";
             valores.pb(n);
         }
